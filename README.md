@@ -1,8 +1,19 @@
-# React + Vite
+# Detalle del Producto para Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en desarrollar el maquetado de una página de detalle de un producto para un sitio de ecommerce.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El maquetado debe visualizar los siguientes datos del producto:
+
+- **Nombre**
+- **Descripción**
+- **Precio**
+- **SKU**
+- **Cantidad disponible**
+
+El maquetado se desarrollará utilizando componentes.
+
+## Botón de Compra
+
+Se agregará un botón "Comprar" al maquetado. Al hacer clic en este botón, se mostrará un mensaje al usuario que diga: "Gracias por su compra". Este comportamiento se implementará utilizando el manejo de estados.
